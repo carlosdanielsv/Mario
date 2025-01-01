@@ -1,0 +1,255 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Mario';
+    src: url(fonts/Gamer\ Station\ Extrude.ttf) format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Games';
+    src: url(fonts/Gamer\ Station.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #AEBF93;
+}
+.logo {
+    max-width: 700px;
+    min-width: 200px;
+}
+header {
+    background-image: url(img/Banner\ .png);
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding: 20px;  
+    width: 100%;
+    height: 100%;
+    background-color: #324759;
+    box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.589);
+}
+
+nav {
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+}
+
+nav a {
+    font-family: 'Games' , sans-serif;
+    padding: 10px;
+    color: #324759;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #AEBF93;
+    padding: 5px 10px;
+    border-radius: 5px;
+} 
+
+nav a:hover {
+    color: #D92818;
+    text-decoration: underline;
+}
+
+
+
+h1 {
+    font-family: 'Mario' , sans-serif;
+    padding: 10px;
+    background-image: linear-gradient(to right, #d92818a6, white);
+}
+
+h2 {
+    font-family: 'Mario' , sans-serif;
+    padding: 10px;
+    background-image: linear-gradient(to right, #d92818a6, white);
+}
+
+h3 {
+    font-family: 'Mario' , sans-serif;
+    padding: 10px;
+}
+
+.img {
+    display: flex;
+    margin: auto;
+    width: 700px;
+}
+
+.img2 {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+.imgresponsivo {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+div.imgedit {
+    padding: 20px;
+}
+
+p.NES {
+    padding: 0px;
+    font-size: 13px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
+
+
+
+article {
+    background-color: white;
+    padding: 30px;
+    text-indent: 10px;
+    text-align: justify;
+    box-shadow: 1px 3px 9px 1px rgba(0, 0, 0, 0.336);
+    border-radius: -1px 10px 0px 0px;
+}
+
+article p {
+    padding-top: 20px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+article a {
+    color: #9c1b0f;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article a:active {
+    color: #f81803;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+ul {
+    margin: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+
+
+aside {
+    background-color: #AEBF93;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px 2px 20px 2px;
+}
+
+button.botao1 {
+    background-color: #324759;
+    font-size: 17px;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Games' , sans-serif;
+    
+}
+
+button.botao2 {
+    background-color: #d92818e7;
+    font-size: 17px;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Games' , sans-serif;
+}
+
+
+
+section {
+    background-color: #F2ECD8;   
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    padding-bottom: 30px;
+}
+
+section h2 {
+    font-family: 'Mario' , sans-serif;
+    padding: 20px;
+    background-image: none;
+}
+
+section p {
+    margin: 20px;
+    padding-top: 10px;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+
+
+div.video {
+    padding: 1em;
+    background-color: #324759;
+}
+
+div.video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    aspect-ratio: 16/9;
+}
+
+
+
+
+footer {
+    background-color: #324759;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+footer a {
+    color: #AEBF93;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #D92818; 
+} 
+
+footer a:active {
+    color: #591711;
+}
